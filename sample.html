@@ -1,0 +1,60 @@
+
+<html>
+    <head>
+         <link href="sample.css" rel="stylesheet"> 
+         <title>Calculator</title>
+    </head>
+    <body>
+        <div id="header"><br />
+            <h1> Online Calculator</h1>
+        </div>
+        <div id="operation">
+            <ul>
+                <l>   <a href="#">Arithmetic</a></l><br />
+                <l>   <a href="#">Trignometric</a></l><br />
+                <l> <a href="#">Exponential</a></l><br />
+            </ul>
+        </div><!--end of 1-->
+        <div id="operands">
+            <p id="indent">Result:</p>
+            <input type="text" name="data3" size="15"   /> 
+            <input type="text" name="data1" size="15" placeholder="Operand1"  /> 
+            <input type="text" name="data2" size="15" placeholder="Operand2"  /> 
+
+            <table>
+                <tr>
+                    <td><button type="button" onclick="get()">7</button></td> 
+                    <td><button type="button" onclick="get()">8</button></td>
+                    <td><button type="button" onclick="get()">9</button></td>
+                    <td><button type="button" onclick="get()">pi</button></td>
+                    <td><button class="lc" type="reset">C</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="get()" >4</button></td> 
+                    <td><button type="button" onclick="get()">5</button></td>
+                    <td><button type="button" onclick="get()">6</button></td>
+                    <td><button type="button" onclick="get()">e</button></td>
+                    <td><button class="lc" type="button">DEL</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="get()">1</button></td> 
+                    <td><button type="button" onclick="get()">2</button></td>
+                    <td><button type="button" onclick="get()">3</button></td>
+                    <td><button type="button" >(</button></td>
+                    <td><button class="lc"  type="button" onclick=get()>Ans</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button">.</button></td> 
+                    <td><button type="button" onclick="get()">0</button></td>
+                    <td><button type="button" >%</button></td>
+                    <td><button type="button" >)</button></td>
+                    <td><button class="lc"  type="submit" >=</button></td>
+                 
+                </tr>           
+        </table>
+             
+        </div>
+        
+    </body>
+</html>     
+   
